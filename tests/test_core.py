@@ -2,6 +2,7 @@
 import pytest
 from learning_pypi.core import sum_numbers
 
+
 def test_sum_numbers():
     assert sum_numbers([1, 2, 3]) == 6
     assert sum_numbers([1, 2, 3, 4, 5]) == 15 
