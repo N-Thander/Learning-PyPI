@@ -4,7 +4,7 @@ name: PyPI Pipeline
 on:
   push:
     tags:
-      - "v*"  # Runs only on version tags, e.g., v0.1.0
+      - "v*" 
 
 jobs:
   build:
